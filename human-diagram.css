@@ -1,0 +1,31 @@
+.human-diagram-stage{background:#edf3f6!important;color:#1c3043!important}
+.human-diagram-stage:before,.human-diagram-stage:after{display:none!important;content:none!important}
+.image-diagram-stage{display:flex!important;align-items:center;justify-content:center;height:auto!important;min-height:0;padding:10px 14px;background:#fff!important;overflow:hidden}
+.image-diagram-stage > :not(.sensor-placement-image){display:none!important}
+.sensor-placement-image{display:block;width:100%;height:auto;max-width:100%;object-fit:contain}
+.human-3d-section{background:#edf3f5!important;border-color:#c7d5da!important;box-shadow:0 12px 30px rgba(22,48,63,.12)}
+.human-3d-heading{background:#edf3f5!important;color:#1f394b;border-bottom:1px solid #cbd9de}
+.human-3d-heading h2{color:#203b4e}
+.human-3d-heading p{color:#5c7481!important}
+.human-3d-heading .panel-kicker{color:#587482!important}
+.human-3d-status{color:#208b75!important}
+.human-3d-status i{background:#3bb894!important;box-shadow:0 0 10px rgba(59,184,148,.36)}
+.image-diagram-stage{width:100%;max-width:760px;margin:0 auto;border-color:#c7d5da!important;box-shadow:0 2px 9px rgba(34,61,76,.1)}
+.human-vitals{background:#f7fafb!important}
+.human-vital{border-color:#d5e1e5!important}
+.human-vital span{color:#5d7481!important}
+.human-vital strong{color:#294556}
+.human-vital em{color:#288b74!important}
+.human-vital-danger{background:#fff1f0!important}
+.human-vital-danger strong,.human-vital-danger em{color:#c24748!important}
+.human-vital-amber{background:#fff8ed!important}
+.human-vital-amber strong,.human-vital-amber em{color:#b97822!important}
+.human-3d-section{display:grid;grid-template-columns:minmax(0,1.18fr) minmax(275px,.82fr);gap:16px;padding:16px;background:#edf3f5!important;border-color:#c7d5da!important}
+.human-3d-heading{display:none!important}
+.image-diagram-stage{grid-column:1;grid-row:1;width:100%;max-width:none;margin:0;min-width:0}
+.human-3d-section>.human-vitals{grid-column:2;grid-row:1;align-self:stretch;align-content:center;grid-template-columns:repeat(2,minmax(0,1fr));min-width:0;padding:8px;border:1px solid #c7d5da;background:#f7fafb!important}
+.human-3d-section>.human-vitals .human-vital{min-height:104px;padding:15px 12px;border-right:1px solid #d5e1e5;border-bottom:1px solid #d5e1e5}
+.human-3d-section>.human-vitals .human-vital:nth-child(2n){border-right:0}
+.human-3d-section>.human-vitals .human-vital:nth-last-child(-n+2){border-bottom:0}
+@media(max-width:620px){.human-diagram-stage{height:auto!important}}
+@media(max-width:620px){.human-3d-section{grid-template-columns:1fr;gap:10px;padding:10px}.image-diagram-stage{grid-column:1;grid-row:1;height:auto!important;min-height:0;padding:12px 8px}.sensor-placement-image{width:100%;height:auto;max-height:none}.human-3d-section>.human-vitals{grid-column:1;grid-row:2;grid-template-columns:repeat(2,minmax(0,1fr));min-height:0}.human-3d-section>.human-vitals .human-vital{min-height:92px;padding:12px 10px}}

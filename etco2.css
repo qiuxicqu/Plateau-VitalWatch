@@ -1,0 +1,14 @@
+.modal-metrics{grid-template-columns:repeat(7,minmax(0,1fr))}
+.metric-etco2{border-color:#8c6a3d;background:rgba(241,179,91,.05)}
+.metric-etco2 strong,.metric-etco2 em{color:var(--amber)}
+.metric-etco2.etco2-danger{border-color:#814658;background:rgba(255,111,111,.06)}
+.metric-etco2.etco2-danger strong,.metric-etco2.etco2-danger em{color:var(--red)}
+.human-vital-etco2{background:rgba(241,179,91,.05)}
+.human-vital-etco2 strong,.human-vital-etco2 em{color:var(--amber)!important}
+.human-vital-etco2.etco2-danger{background:rgba(255,111,111,.06)}
+.human-vital-etco2.etco2-danger strong,.human-vital-etco2.etco2-danger em{color:var(--red)!important}
+.people-row-vitals>div.etco2-mini,.person-card-vitals>div.etco2-mini{color:var(--amber)}
+.people-row-vitals>div.etco2-mini b,.person-card-vitals>div.etco2-mini b{color:inherit}
+.etco2-event-block{border-left:2px solid var(--amber);padding-left:12px}
+@media(max-width:1250px){.modal-metrics{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:620px){.modal-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}

@@ -1,0 +1,9 @@
+联合研究平台 Logo 来源（公开官网资源）
+
+四川大学： https://www.scu.edu.cn/images/logo.png
+重庆大学： https://www.cqu.edu.cn/images/logo1.png
+
+页面使用本地副本：scu-logo.png、cqu-logo.png
+
+四川大学华西医院官网： https://www.wchscu.cn/Public/static/themes_yq/image/wmy/logo.png
+备用资源： https://www.wchscu.cn/Public/static/themes_yq/image/wmy/logo1.png
